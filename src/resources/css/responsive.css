@@ -1,0 +1,90 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .galleriya-grid{
+        /* grid-auto-rows:100px; */
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .galleriya .galleriya-grid .box1{
+        grid-column: span 5;
+        grid-row: span 2;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    .galleriya .galleriya-grid .box2{
+        grid-column: span 5;
+        grid-row: span 2;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    .galleriya .galleriya-grid .box3{
+        grid-column: span 5;
+        grid-row: span 2;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    .galleriya .galleriya-grid .box4{
+        grid-column: span 5;
+        grid-row: span 2;
+        grid-auto-rows: minmax(100px, auto);
+    }
+    .galleriya .galleriya-grid .box5{
+        grid-column: span 5;
+        grid-row: span 2;
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .about .about-text{
+        margin-left:0px;
+    }
+
+    .about .about-carousel{
+        margin-left:0px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+    .header .header-bottom .carousel .carousel-inner .carousel-item .carousel-caption{
+        padding:3px;
+        left:0;
+        right:0;
+        bottom:50px;
+    }
+
+    .header .header-bottom .carousel .carousel-inner .carousel-item .carousel-caption h5{
+        font-size:18px;
+    }
+    
+}
+
+ /* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+}
+
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+} 
+
+.custom-file-input:lang(en) ~ .custom-file-label::after{
+    content: "Yüklə";
+}

@@ -1,0 +1,29 @@
+// Main Sass File
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    font-weight:300;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+@import 'header';
+@import 'about';
+@import 'galleriya';
+@import 'confrance';
+@import 'footer';
+@import 'content';
+@import 'register';
+@import 'contact';

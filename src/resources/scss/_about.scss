@@ -1,0 +1,135 @@
+.about{
+    margin-top:30px;
+    h3{
+        font-size:28px;
+        font-weight: bold;
+        color:#191919;
+        margin:10px 0px 30px 0px;
+        position: relative;
+        border-left:4px solid #c32328;
+        padding-left:5px;    
+        text-transform: uppercase; 
+    }
+
+    .about-img{
+        margin-bottom:30px;
+        img{
+            -webkit-border-top-right-radius: 100px;
+            -moz-border-radius-topright: 100px;
+            border-top-right-radius: 100px;
+            -webkit-box-shadow: 5px 6px 18px 0px rgba(209,209,209,1);
+            -moz-box-shadow: 5px 6px 18px 0px rgba(209,209,209,1);
+            box-shadow: 5px 6px 18px 0px rgba(209,209,209,1);
+        }
+    }
+
+    .about-text{
+
+        margin-left:40px;
+        padding-bottom: 40px;
+
+        h3{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-left:none;
+            padding-left:0px;
+        }
+
+        p{
+            font-size:18px;
+            height: 105px;
+            overflow: hidden;
+            color:#191919;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom:20px;
+        }
+
+        a{
+            background: #c32328;
+            color:#fff;
+            padding:10px 50px;
+            -webkit-border-bottom-right-radius: 25px;
+            -moz-border-radius-bottomright: 25px;
+            border-bottom-right-radius: 25px;
+
+            &:hover{
+                text-decoration: none;
+                opacity: 0.9;
+            }
+        }
+
+    }
+
+    .about-carousel{
+        margin-left:40px;
+
+        .carousel-news{
+            .card{
+                .card-body{
+                    padding:0px 5px 0px 5px;
+                    
+                    strong{
+                        font-size:14px;
+                        display: block;
+                    }
+                    a{
+                        font-size:13px;
+                        color:#000;
+                        height: 55px;
+                        overflow: hidden;
+                        display: block;
+                    }
+                }
+                
+                img{
+                  margin-bottom:10px;
+                }
+            }
+
+            .owl-nav {
+                margin-top:0px;
+                text-align: center;
+                -webkit-tap-highlight-color: transparent;
+                position: absolute;
+                top: -35px;
+                right: 0px;
+
+                .owl-prev{
+                    margin:0px;
+                    margin-right:10px;
+
+                    &:hover{
+                        background: none;
+                        color:#000;
+                    }
+
+                    span{
+                        font-size:22px;
+                        font-weight: bold;
+                    }
+                }
+
+                .owl-next{
+                    margin:0px;
+                    &:hover{
+                        background: none;
+                        color:#000;
+                    }
+
+                    span{
+                        font-size:22px;
+                        font-weight: bold;
+                    }
+                }
+
+               
+            }
+        }
+
+        .carousel-title{
+            font-size:21px;
+            color:#191919;
+            font-weight: bold;
+            margin-bottom:5px;
+        }
+    }
+}

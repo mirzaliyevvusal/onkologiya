@@ -1,0 +1,74 @@
+.breadcrumb-bg{
+    background:url(../img/contentbg.jpg) no-repeat;
+    width:100%;
+    height: 100%;
+    position: relative;
+    padding:200px 0px 250px 0px;
+    background-size:cover;
+    background-position: center center;
+    margin-bottom:30px;
+
+    .breadcrumb{
+        position: relative;
+        z-index:1;
+        top:90px;
+        background-color:transparent;
+        font-size:24px;
+        
+        a{
+            color:#fff;
+            text-shadow: 1px 1px 1px #000;
+
+            &:hover{
+                text-decoration: none;
+            }
+        }
+
+        .active{
+            color:#fff !important;
+            text-shadow: 1px 1px 1px #000;
+        }
+        
+    }
+}
+
+.content-text{
+    .single-post{
+        .post-details{
+            .post-title{
+                font-size:30px;
+                margin-bottom:30px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:18px;
+            }
+        }
+    }
+
+    .list-group-item:last-child{
+        border-radius: 0px;
+    }
+
+    .news-card{
+        h1{
+            font-size:16px;
+            line-height: 22px;
+        }  
+    }
+
+    .team{
+        h1{
+            font-size:16px;
+            color:#464646;
+            text-align: center;
+        }
+        em{
+            color:#464646;
+            display: block;
+            text-align: center;
+        }
+    }
+}
